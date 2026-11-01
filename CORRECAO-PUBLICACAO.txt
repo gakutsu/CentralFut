@@ -1,0 +1,23 @@
+﻿CORRECAO CENTRALFUT V1.7.1 - GITHUB NOVO REPOSITORIO
+
+Corrigido: error: No such remote 'origin'.
+O Git pode estar inicializado sem remoto. Isto e normal em repositorio novo.
+O script corrigido verifica a existencia de origin antes de consulta-lo e
+cria/conecta o repositorio novo quando necessario.
+
+OPCAO A - Caso tenha a pasta original extraida:
+  - Copie os novos arquivos PUBLICAR-GITHUB.cmd e publicar-no-github.ps1
+    para dentro dessa pasta, substituindo somente esses dois arquivos.
+  - Execute PUBLICAR-GITHUB.cmd. Pode manter a pasta .git que ja foi criada.
+
+OPCAO B - Pacote completo:
+  - Extraia este ZIP em pasta separada e execute PUBLICAR-GITHUB.cmd.
+
+Voce ja esta autenticado como gakutsu. Nao precisa fazer login novamente.
+O script nao sobrescreve outro repositorio nem usa force push.
+Se o repositorio remoto ja existir mas a pasta nao estiver ligada a ele,
+interrompe para sua seguranca.
+
+Destino: https://github.com/gakutsu/CentralFut
+Site previsto: https://gakutsu.github.io/CentralFut/
+Acompanhar: https://github.com/gakutsu/CentralFut/actions

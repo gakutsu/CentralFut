@@ -1,0 +1,30 @@
+CENTRALFUT V1.7.1 - PUBLICAR EM UM NOVO REPOSITORIO
+====================================================
+
+REPOSITORIO: https://github.com/gakutsu/CentralFut
+SITE FINAL:  https://gakutsu.github.io/CentralFut/
+
+1) Extraia ESTE ZIP para uma pasta normal do Windows.
+2) Instale Git (se faltar): winget install --id Git.Git -e --source winget
+3) Instale GitHub CLI (se faltar): winget install --id GitHub.cli -e --source winget
+4) Feche e reabra o PowerShell depois de instalar.
+5) Execute PUBLICAR-GITHUB.cmd na pasta CentralFut.
+   Alternativa no PowerShell, aberto dentro de CentralFut:
+   powershell -ExecutionPolicy Bypass -File .\publicar-no-github.ps1
+6) Quando solicitado, entre na conta GitHub "gakutsu" pelo navegador.
+7) O script criara o NOVO repositorio publico e enviara a branch main.
+8) Aguarde a confirmacao da publicacao em:
+   https://github.com/gakutsu/CentralFut/actions
+9) O link do site fica em:
+   https://gakutsu.github.io/CentralFut/
+
+Caso a ativacao de Pages nao seja concluida automaticamente:
+- Abra https://github.com/gakutsu/CentralFut/settings/pages
+- Em "Build and deployment" escolha "GitHub Actions".
+- Na aba Actions, rode o workflow "Publicar CentralFut no GitHub Pages".
+
+IMPORTANTE:
+- Nao usa o repositorio JogosApp e nao altera seu site.
+- Nao forneca senha nem token ao ChatGPT. O login acontece no GitHub CLI.
+- Projeto estatica; dados salvos no navegador NAO sao publicados com o site.
+- Se der erro, envie mensagem do PowerShell para ajustarmos o processo.

@@ -1,0 +1,15 @@
+# Git e ferramentas locais
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Pastas temporárias e de publicação
+tmp/
+_site/
+dist/
+*.log

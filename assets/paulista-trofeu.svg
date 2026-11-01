@@ -1,0 +1,28 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="68" y1="22" x2="188" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE9A8"/>
+      <stop offset="0.42" stop-color="#FFBB47"/>
+      <stop offset="1" stop-color="#B96518"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="57" y1="27" x2="200" y2="194" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF6D5" stop-opacity="0.95"/>
+      <stop offset="0.58" stop-color="#FFD778" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="256" height="256" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M82 34C82 28.4772 86.4772 24 92 24H164C169.523 24 174 28.4772 174 34V58C174 84.8559 195.144 106 222 106H224C229.523 106 234 110.477 234 116V126C234 158.033 208.033 184 176 184H169C160.163 196.95 145.286 206 128 206C110.714 206 95.8369 196.95 87 184H80C47.9675 184 22 158.033 22 126V116C22 110.477 26.4772 106 32 106H34C60.8559 106 82 84.8559 82 58V34Z" fill="url(#g1)"/>
+    <path d="M69 58C69 92.7939 40.7939 121 6 121V126C6 166.869 39.1309 200 80 200H93.5V183H80C48.804 183 23 157.196 23 126V121H34C64.2417 121 89 96.2417 89 66V44H69V58Z" fill="#EAA53B"/>
+    <path d="M187 44V66C187 96.2417 211.758 121 242 121H253V126C253 166.869 219.869 200 179 200H162.5V183H179C210.196 183 236 157.196 236 126V121C201.206 121 173 92.7939 173 58V44H187Z" fill="#D98D28"/>
+    <path d="M96 32H160V60C160 77.6731 145.673 92 128 92C110.327 92 96 77.6731 96 60V32Z" fill="url(#g2)"/>
+    <rect x="112" y="178" width="32" height="33" rx="12" fill="#C87723"/>
+    <path d="M88 208C88 201.373 93.3726 196 100 196H156C162.627 196 168 201.373 168 208V214H88V208Z" fill="#B76317"/>
+    <rect x="75" y="214" width="106" height="18" rx="9" fill="url(#g1)"/>
+    <circle cx="128" cy="118" r="26" fill="#FFF6D5" fill-opacity="0.95"/>
+    <path d="M128 103L131.677 114.319H143.576L133.949 121.362L137.627 132.681L128 125.638L118.373 132.681L122.051 121.362L112.424 114.319H124.323L128 103Z" fill="#D08722"/>
+  </g>
+</svg>

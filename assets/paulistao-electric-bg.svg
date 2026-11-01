@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="580" viewBox="0 0 1500 580" fill="none" role="img" aria-label="Composição geométrica azul inspirada na identidade do Paulistão">
+  <defs>
+    <linearGradient id="back" x1="0" y1="220" x2="1500" y2="425" gradientUnits="userSpaceOnUse"><stop stop-color="#030E86"/><stop offset=".42" stop-color="#0905C8"/><stop offset="1" stop-color="#1620F0"/></linearGradient>
+    <linearGradient id="side" x1="100" y1="0" x2="940" y2="570" gradientUnits="userSpaceOnUse"><stop stop-color="#1A44FC" stop-opacity=".48"/><stop offset=".42" stop-color="#0D0BD4" stop-opacity=".12"/><stop offset="1" stop-color="#1E15FF" stop-opacity=".4"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1100 245) rotate(150) scale(560 360)"><stop stop-color="#3671FF" stop-opacity=".52"/><stop offset="1" stop-color="#2449F7" stop-opacity="0"/></radialGradient>
+    <linearGradient id="trophy" x1="1050" y1="100" x2="1334" y2="490" gradientUnits="userSpaceOnUse"><stop stop-color="#81ABFF" stop-opacity=".23"/><stop offset="1" stop-color="#6A8AFF" stop-opacity=".015"/></linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#A0B7FF" fill-opacity=".15"/></pattern>
+  </defs>
+  <rect width="1500" height="580" fill="url(#back)"/>
+  <path d="M0 0H480L730 123L0 245V0Z" fill="#1028E8" opacity=".45"/>
+  <path d="M0 578L0 295L620 580L0 578Z" fill="#030484" opacity=".55"/>
+  <path d="M180 0H1160L0 225L180 0Z" fill="#2143FE" opacity=".12"/>
+  <path d="M705 0L1500 0V108L0 325L705 0Z" fill="url(#side)"/>
+  <path d="M1500 170L1500 580L900 580L1500 170Z" fill="#1829EA" opacity=".38"/>
+  <path d="M0 446L540 580H0V446Z" fill="#030576" opacity=".66"/>
+  <path d="M240 0L0 350V0H240Z" fill="#0729B3" opacity=".45"/>
+  <path d="M1480 0H1500V580H1432L1480 0Z" fill="#2B4BFF" opacity=".21"/>
+  <rect x="840" width="660" height="580" fill="url(#glow)"/>
+  <path d="M1080 95H1250L1245 236C1244 292 1222 334 1175 351L1175 400H1210V428H1120V400H1156V351C1105 336 1087 287 1085 237L1080 95Z" fill="url(#trophy)"/>
+  <path d="M1091 139H1040V203C1040 261 1070 287 1101 295M1241 139H1290V203C1290 261 1260 287 1229 295" stroke="#A4C4FF" stroke-opacity=".12" stroke-width="20"/>
+  <path d="M1072 434H1260" stroke="#B1C9FF" stroke-opacity=".11" stroke-width="30" stroke-linecap="round"/>
+  <path d="M1071 59L1500 0V80L1095 109L1071 59Z" fill="#F5F7FF" opacity=".025"/>
+  <rect width="1500" height="580" fill="url(#dots)" opacity=".5"/>
+  <path d="M1328 17L1500 0V7L1328 25V17Z" fill="#FC334D" opacity=".9"/>
+</svg>
